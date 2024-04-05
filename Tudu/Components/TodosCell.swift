@@ -14,7 +14,7 @@ struct TodosCell: View {
             LazyVStack {
                 ForEach(todos) {todo in
                     TodoCell(deleteTodo: deleteTodo, todo: todo)
-                        .padding(2)
+                        .padding(4)
                 }
             }
         }
