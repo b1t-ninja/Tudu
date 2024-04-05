@@ -24,6 +24,7 @@
 		BC08B9872BBDA0A200C2AE6D /* TodosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */; };
 		BC08B9892BBDB1DA00C2AE6D /* AddTodoModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9882BBDB1DA00C2AE6D /* AddTodoModal.swift */; };
 		BC4A04012BC00B5A00D90A2A /* TodoInputModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */; };
+		BC4A04032BC011CC00D90A2A /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A04022BC011CC00D90A2A /* TodoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosCell.swift; sourceTree = "<group>"; };
 		BC08B9882BBDB1DA00C2AE6D /* AddTodoModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoModal.swift; sourceTree = "<group>"; };
 		BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInputModal.swift; sourceTree = "<group>"; };
+		BC4A04022BC011CC00D90A2A /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				BC08B9842BBD9B2D00C2AE6D /* TodoCell.swift */,
 				BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */,
 				BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */,
+				BC4A04022BC011CC00D90A2A /* TodoDetailView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				BC08B9892BBDB1DA00C2AE6D /* AddTodoModal.swift in Sources */,
 				BC08B9852BBD9B2D00C2AE6D /* TodoCell.swift in Sources */,
 				BC08B9872BBDA0A200C2AE6D /* TodosCell.swift in Sources */,
+				BC4A04032BC011CC00D90A2A /* TodoDetailView.swift in Sources */,
 				BC08B9812BBD9AEA00C2AE6D /* Headline.swift in Sources */,
 				BC08B9732BBD976D00C2AE6D /* Todo.swift in Sources */,
 				BC08B9752BBD993200C2AE6D /* TodoAppView.swift in Sources */,

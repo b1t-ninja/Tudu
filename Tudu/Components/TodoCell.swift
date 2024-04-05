@@ -38,10 +38,12 @@ struct TodoCell: View {
                 Text(todo?.title ?? "Title")
                     .font(.custom("Satoshi-Medium", size: 23))
                     .foregroundStyle(Color.todoWhite)
+                    .lineLimit(1)
                 
                 Text(todo?.contents ?? "Contents")
                     .font(.custom("Satoshi-Regular", size: 20))
                     .foregroundStyle(Color.todoWhite)
+                    .lineLimit(1)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
