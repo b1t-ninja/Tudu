@@ -1,5 +1,5 @@
 # Little Todo App
 
-<img src='https://github.com/b1t-ninja/Tudu/assets/69219273/a35a081c-1487-4478-a7de-ce475c67f89d' width='400'/>
+<img src='https://github.com/b1t-ninja/Tudu/assets/69219273/d30b9948-d9de-4e01-b9db-511024c1adc9' width='400'/>
 <br>
-<img src='https://github.com/b1t-ninja/Tudu/assets/69219273/175cb7be-e3bc-438f-985f-6c9168f43d0a' width='400'/>
+<img src='https://github.com/b1t-ninja/Tudu/assets/69219273/4974a662-3c2d-4192-b3b4-f6762d573a99' width='400'/>
