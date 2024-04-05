@@ -5,44 +5,34 @@
 
 import SwiftUI
 
+struct Note {
+    var title: String
+    var contents: String
+}
+
+// TODO!
+// Change the input for modal
 struct AddTodoModal: View {
-    @State private var title = String()
-    @State private var contents = String()
+    @State private var contents = "# Title\nContents"
     @Binding var isSelected: Bool
     var addTodo: ((Todo) -> Void)? = nil
     var body: some View {
         ZStack {
             Color.todoBlack.ignoresSafeArea()
             VStack {
-                Text("Todo")
-                    .font(.custom("Sharpie-Bold", size: 30))
+                Text("New Todo")
+                    .font(.custom("Sharpie-Bold", size: 35))
                     .foregroundStyle(Color.todoWhite)
                 
-                Section {
-                    TextField("", text: $title, prompt: Text("title...").foregroundStyle(.white).font(.custom("Satoshi-Regular", size: 20)))
-                        .padding()
-                        .background(.ultraThinMaterial)
-                        .cornerRadius(20)
-                        .padding()
-                        .foregroundStyle(Color.todoWhite)
-                }
-                
-                Section {
-                    TextField("", text: $contents, prompt: Text("contents...").foregroundStyle(.white).font(.custom("Satoshi-Regular", size: 20)))
-                        .padding()
-                        .background(.ultraThinMaterial)
-                        .cornerRadius(20)
-                        .padding()
-                        .foregroundStyle(Color.todoWhite)
-                }
+                TodoInputModal(input: $contents)
                 
                 HStack {
                     Button {
-                        let todo = Todo(title: title, contents: contents)
+                        let values = getTitleAndContents(input: contents)
+                        let todo = Todo(title: values.title, contents: values.contents)
                         if let method = addTodo {
                             method(todo)
                         }
-                        title = ""
                         contents = ""
                     } label: {
                         Label("add", systemImage: "plus")
@@ -67,6 +57,11 @@ struct AddTodoModal: View {
                 }
             }
         }
+    }
+    private func getTitleAndContents(input: String) -> Note {
+        let inputs = input.split(separator: "\n")
+        let title = String(inputs.first!).replacingOccurrences(of: "#", with: "")
+        return Note(title: title, contents: String(inputs.last!))
     }
 }
 

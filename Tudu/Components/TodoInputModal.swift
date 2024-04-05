@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TodoInputModal: View {
-    @State private var input: String = "# title\n\ncontent"
+    @Binding var input: String
     var body: some View {
         TextEditor(text: $input)
             .frame(maxWidth: .infinity, maxHeight: 500)
@@ -23,9 +23,3 @@ struct TodoInputModal: View {
     }
 }
 
-#Preview {
-    ZStack {
-        Color.todoBlack.ignoresSafeArea()
-        TodoInputModal()
-    }
-}
