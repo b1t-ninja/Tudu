@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC08B9462BBD949200C2AE6D /* TuduApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9452BBD949200C2AE6D /* TuduApp.swift */; };
+		BC08B9482BBD949200C2AE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9472BBD949200C2AE6D /* ContentView.swift */; };
+		BC08B94A2BBD949300C2AE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08B9492BBD949300C2AE6D /* Assets.xcassets */; };
+		BC08B94D2BBD949300C2AE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08B94C2BBD949300C2AE6D /* Preview Assets.xcassets */; };
+		BC08B9572BBD949300C2AE6D /* TuduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9562BBD949300C2AE6D /* TuduTests.swift */; };
+		BC08B9612BBD949300C2AE6D /* TuduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9602BBD949300C2AE6D /* TuduUITests.swift */; };
+		BC08B9632BBD949300C2AE6D /* TuduUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9622BBD949300C2AE6D /* TuduUITestsLaunchTests.swift */; };
+		BC08B9732BBD976D00C2AE6D /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9722BBD976D00C2AE6D /* Todo.swift */; };
+		BC08B9752BBD993200C2AE6D /* TodoAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9742BBD993200C2AE6D /* TodoAppView.swift */; };
+		BC08B97A2BBD99D100C2AE6D /* Sharpie-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC08B9792BBD99D100C2AE6D /* Sharpie-Bold.otf */; };
+		BC08B97C2BBD99EB00C2AE6D /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC08B97B2BBD99EB00C2AE6D /* Satoshi-Regular.otf */; };
+		BC08B97E2BBD99F800C2AE6D /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC08B97D2BBD99F800C2AE6D /* Satoshi-Medium.otf */; };
+		BC08B9812BBD9AEA00C2AE6D /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9802BBD9AEA00C2AE6D /* Headline.swift */; };
+		BC08B9852BBD9B2D00C2AE6D /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9842BBD9B2D00C2AE6D /* TodoCell.swift */; };
+		BC08B9872BBDA0A200C2AE6D /* TodosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */; };
+		BC08B9892BBDB1DA00C2AE6D /* AddTodoModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08B9882BBDB1DA00C2AE6D /* AddTodoModal.swift */; };
+		BC4A04012BC00B5A00D90A2A /* TodoInputModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC08B9532BBD949300C2AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC08B93A2BBD949200C2AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC08B9412BBD949200C2AE6D;
+			remoteInfo = Tudu;
+		};
+		BC08B95D2BBD949300C2AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC08B93A2BBD949200C2AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC08B9412BBD949200C2AE6D;
+			remoteInfo = Tudu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC08B9422BBD949200C2AE6D /* Tudu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tudu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC08B9452BBD949200C2AE6D /* TuduApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuduApp.swift; sourceTree = "<group>"; };
+		BC08B9472BBD949200C2AE6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC08B9492BBD949300C2AE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC08B94C2BBD949300C2AE6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC08B9522BBD949300C2AE6D /* TuduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC08B9562BBD949300C2AE6D /* TuduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuduTests.swift; sourceTree = "<group>"; };
+		BC08B95C2BBD949300C2AE6D /* TuduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC08B9602BBD949300C2AE6D /* TuduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuduUITests.swift; sourceTree = "<group>"; };
+		BC08B9622BBD949300C2AE6D /* TuduUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuduUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC08B9722BBD976D00C2AE6D /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		BC08B9742BBD993200C2AE6D /* TodoAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppView.swift; sourceTree = "<group>"; };
+		BC08B9792BBD99D100C2AE6D /* Sharpie-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sharpie-Bold.otf"; sourceTree = "<group>"; };
+		BC08B97B2BBD99EB00C2AE6D /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		BC08B97D2BBD99F800C2AE6D /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		BC08B97F2BBD9A2100C2AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BC08B9802BBD9AEA00C2AE6D /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		BC08B9842BBD9B2D00C2AE6D /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosCell.swift; sourceTree = "<group>"; };
+		BC08B9882BBDB1DA00C2AE6D /* AddTodoModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoModal.swift; sourceTree = "<group>"; };
+		BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInputModal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC08B93F2BBD949200C2AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B94F2BBD949300C2AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B9592BBD949300C2AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC08B9392BBD949200C2AE6D = {
+			isa = PBXGroup;
+			children = (
+				BC08B9442BBD949200C2AE6D /* Tudu */,
+				BC08B9552BBD949300C2AE6D /* TuduTests */,
+				BC08B95F2BBD949300C2AE6D /* TuduUITests */,
+				BC08B9432BBD949200C2AE6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC08B9432BBD949200C2AE6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9422BBD949200C2AE6D /* Tudu.app */,
+				BC08B9522BBD949300C2AE6D /* TuduTests.xctest */,
+				BC08B95C2BBD949300C2AE6D /* TuduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC08B9442BBD949200C2AE6D /* Tudu */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B97F2BBD9A2100C2AE6D /* Info.plist */,
+				BC08B9762BBD995100C2AE6D /* Fonts */,
+				BC08B9712BBD94F600C2AE6D /* Models */,
+				BC08B9702BBD94F100C2AE6D /* Core */,
+				BC08B96F2BBD94E500C2AE6D /* Components */,
+				BC08B9452BBD949200C2AE6D /* TuduApp.swift */,
+				BC08B9472BBD949200C2AE6D /* ContentView.swift */,
+				BC08B9492BBD949300C2AE6D /* Assets.xcassets */,
+				BC08B94B2BBD949300C2AE6D /* Preview Content */,
+			);
+			path = Tudu;
+			sourceTree = "<group>";
+		};
+		BC08B94B2BBD949300C2AE6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B94C2BBD949300C2AE6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC08B9552BBD949300C2AE6D /* TuduTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9562BBD949300C2AE6D /* TuduTests.swift */,
+			);
+			path = TuduTests;
+			sourceTree = "<group>";
+		};
+		BC08B95F2BBD949300C2AE6D /* TuduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9602BBD949300C2AE6D /* TuduUITests.swift */,
+				BC08B9622BBD949300C2AE6D /* TuduUITestsLaunchTests.swift */,
+			);
+			path = TuduUITests;
+			sourceTree = "<group>";
+		};
+		BC08B96F2BBD94E500C2AE6D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9802BBD9AEA00C2AE6D /* Headline.swift */,
+				BC08B9842BBD9B2D00C2AE6D /* TodoCell.swift */,
+				BC08B9862BBDA0A200C2AE6D /* TodosCell.swift */,
+				BC4A04002BC00B5A00D90A2A /* TodoInputModal.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC08B9702BBD94F100C2AE6D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9742BBD993200C2AE6D /* TodoAppView.swift */,
+				BC08B9882BBDB1DA00C2AE6D /* AddTodoModal.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BC08B9712BBD94F600C2AE6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B9722BBD976D00C2AE6D /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC08B9762BBD995100C2AE6D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC08B97B2BBD99EB00C2AE6D /* Satoshi-Regular.otf */,
+				BC08B97D2BBD99F800C2AE6D /* Satoshi-Medium.otf */,
+				BC08B9792BBD99D100C2AE6D /* Sharpie-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC08B9412BBD949200C2AE6D /* Tudu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC08B9662BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "Tudu" */;
+			buildPhases = (
+				BC08B93E2BBD949200C2AE6D /* Sources */,
+				BC08B93F2BBD949200C2AE6D /* Frameworks */,
+				BC08B9402BBD949200C2AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tudu;
+			productName = Tudu;
+			productReference = BC08B9422BBD949200C2AE6D /* Tudu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC08B9512BBD949300C2AE6D /* TuduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC08B9692BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "TuduTests" */;
+			buildPhases = (
+				BC08B94E2BBD949300C2AE6D /* Sources */,
+				BC08B94F2BBD949300C2AE6D /* Frameworks */,
+				BC08B9502BBD949300C2AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC08B9542BBD949300C2AE6D /* PBXTargetDependency */,
+			);
+			name = TuduTests;
+			productName = TuduTests;
+			productReference = BC08B9522BBD949300C2AE6D /* TuduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC08B95B2BBD949300C2AE6D /* TuduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC08B96C2BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "TuduUITests" */;
+			buildPhases = (
+				BC08B9582BBD949300C2AE6D /* Sources */,
+				BC08B9592BBD949300C2AE6D /* Frameworks */,
+				BC08B95A2BBD949300C2AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC08B95E2BBD949300C2AE6D /* PBXTargetDependency */,
+			);
+			name = TuduUITests;
+			productName = TuduUITests;
+			productReference = BC08B95C2BBD949300C2AE6D /* TuduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC08B93A2BBD949200C2AE6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BC08B9412BBD949200C2AE6D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BC08B9512BBD949300C2AE6D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BC08B9412BBD949200C2AE6D;
+					};
+					BC08B95B2BBD949300C2AE6D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BC08B9412BBD949200C2AE6D;
+					};
+				};
+			};
+			buildConfigurationList = BC08B93D2BBD949200C2AE6D /* Build configuration list for PBXProject "Tudu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC08B9392BBD949200C2AE6D;
+			productRefGroup = BC08B9432BBD949200C2AE6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC08B9412BBD949200C2AE6D /* Tudu */,
+				BC08B9512BBD949300C2AE6D /* TuduTests */,
+				BC08B95B2BBD949300C2AE6D /* TuduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC08B9402BBD949200C2AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC08B97C2BBD99EB00C2AE6D /* Satoshi-Regular.otf in Resources */,
+				BC08B97A2BBD99D100C2AE6D /* Sharpie-Bold.otf in Resources */,
+				BC08B94D2BBD949300C2AE6D /* Preview Assets.xcassets in Resources */,
+				BC08B94A2BBD949300C2AE6D /* Assets.xcassets in Resources */,
+				BC08B97E2BBD99F800C2AE6D /* Satoshi-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B9502BBD949300C2AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B95A2BBD949300C2AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC08B93E2BBD949200C2AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4A04012BC00B5A00D90A2A /* TodoInputModal.swift in Sources */,
+				BC08B9482BBD949200C2AE6D /* ContentView.swift in Sources */,
+				BC08B9892BBDB1DA00C2AE6D /* AddTodoModal.swift in Sources */,
+				BC08B9852BBD9B2D00C2AE6D /* TodoCell.swift in Sources */,
+				BC08B9872BBDA0A200C2AE6D /* TodosCell.swift in Sources */,
+				BC08B9812BBD9AEA00C2AE6D /* Headline.swift in Sources */,
+				BC08B9732BBD976D00C2AE6D /* Todo.swift in Sources */,
+				BC08B9752BBD993200C2AE6D /* TodoAppView.swift in Sources */,
+				BC08B9462BBD949200C2AE6D /* TuduApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B94E2BBD949300C2AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC08B9572BBD949300C2AE6D /* TuduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC08B9582BBD949300C2AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC08B9632BBD949300C2AE6D /* TuduUITestsLaunchTests.swift in Sources */,
+				BC08B9612BBD949300C2AE6D /* TuduUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC08B9542BBD949300C2AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC08B9412BBD949200C2AE6D /* Tudu */;
+			targetProxy = BC08B9532BBD949300C2AE6D /* PBXContainerItemProxy */;
+		};
+		BC08B95E2BBD949300C2AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC08B9412BBD949200C2AE6D /* Tudu */;
+			targetProxy = BC08B95D2BBD949300C2AE6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC08B9642BBD949300C2AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC08B9652BBD949300C2AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC08B9672BBD949300C2AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tudu/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SQ7QN766K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tudu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.Tudu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC08B9682BBD949300C2AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tudu/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SQ7QN766K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tudu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.Tudu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC08B96A2BBD949300C2AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.TuduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tudu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tudu";
+			};
+			name = Debug;
+		};
+		BC08B96B2BBD949300C2AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.TuduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tudu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tudu";
+			};
+			name = Release;
+		};
+		BC08B96D2BBD949300C2AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.TuduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tudu;
+			};
+			name = Debug;
+		};
+		BC08B96E2BBD949300C2AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.b1t.TuduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tudu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC08B93D2BBD949200C2AE6D /* Build configuration list for PBXProject "Tudu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC08B9642BBD949300C2AE6D /* Debug */,
+				BC08B9652BBD949300C2AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC08B9662BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "Tudu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC08B9672BBD949300C2AE6D /* Debug */,
+				BC08B9682BBD949300C2AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC08B9692BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "TuduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC08B96A2BBD949300C2AE6D /* Debug */,
+				BC08B96B2BBD949300C2AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC08B96C2BBD949300C2AE6D /* Build configuration list for PBXNativeTarget "TuduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC08B96D2BBD949300C2AE6D /* Debug */,
+				BC08B96E2BBD949300C2AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC08B93A2BBD949200C2AE6D /* Project object */;
+}
