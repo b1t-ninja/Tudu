@@ -10,8 +10,6 @@ struct Note {
     var contents: String
 }
 
-// TODO!
-// Change the input for modal
 struct AddTodoModal: View {
     @State private var contents = "# Title\nContents"
     @Binding var isSelected: Bool
@@ -58,10 +56,13 @@ struct AddTodoModal: View {
             }
         }
     }
-    private func getTitleAndContents(input: String) -> Note {
-        let inputs = input.split(separator: "\n")
-        let title = String(inputs.first!).replacingOccurrences(of: "#", with: "")
-        return Note(title: title, contents: String(inputs.last!))
+    private func getTitleAndContents(input: String?) -> Note {
+        if let input = input {
+            let inputs = input.split(separator: "\n")
+            let title = String(inputs.first!).replacingOccurrences(of: "#", with: "")
+            return Note(title: title, contents: String(inputs.last!))
+        }
+        return Note(title: "Empty title", contents: "Empty body")
     }
 }
 
